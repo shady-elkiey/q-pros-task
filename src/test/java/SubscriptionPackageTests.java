@@ -1,11 +1,8 @@
 import com.google.gson.JsonObject;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import sun.management.snmp.jvminstr.JvmOSImpl;
-
 import java.io.FileNotFoundException;
 
 public class SubscriptionPackageTests extends BaseTest {
