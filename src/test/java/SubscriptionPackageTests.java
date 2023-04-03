@@ -16,7 +16,7 @@ public class SubscriptionPackageTests extends BaseTest {
     }
 
     @BeforeMethod
-    public void navigateToSauceDemo() {
+    public void navigateToJawwy() {
         driver.get(userInfo.get("url").getAsString());
     }
 
@@ -77,6 +77,9 @@ public class SubscriptionPackageTests extends BaseTest {
         }
 
     }
+    /**
+     * A test case to validate that subscription price for premium is greater than classic and classic is greater than lite
+     */
     @Test
     public void verifyThatPremiumPriceIsGreaterThanClassicAndClassicIsGreaterThanLite(){
         jawyTvPage.languageButton.click();
